@@ -17,7 +17,7 @@
     <section class="home-section">
         <div class="home-content">
         {{-- change this image later --}}
-        <img src="{{ asset('images/nav_icons/home_nav.png') }}" alt="nav_icon" class="menu_icon">
+        <img src="{{ asset('images/nav_icons/menu.png') }}" alt="nav_icon" class="menu_icon">
         <span class="text">Synnex IT Solution</span>
         </div>
 

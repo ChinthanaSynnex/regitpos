@@ -36,6 +36,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/companies', [CompanyController::class, 'index'])->name('companies.index');
     Route::get('/add-company', [CompanyController::class, 'create'])->name('companies.create');
     Route::post('/store-company', [CompanyController::class, 'store'])->name('companies.store');
+    Route::post('/edit-company', [CompanyController::class, 'edit'])->name('companies.edit');
 });
 
 require __DIR__.'/auth.php';

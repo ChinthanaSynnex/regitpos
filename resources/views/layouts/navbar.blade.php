@@ -6,8 +6,8 @@
     <ul class="nav-links">
       <li>
         <a href="#">
-          <i class='bx bx-grid-alt' ></i>
-          <span class="link_name">Dashboard</span>
+            <img src="{{ asset('images/nav_icons/dashboard.png') }}" alt="" class="title_icon">
+            <span class="link_name">Dashboard</span>
         </a>
         <ul class="sub-menu blank">
           <li><a class="link_name" href="#">Dashboard</a></li>
@@ -122,7 +122,7 @@
         <div class="iocn-link">
           <a href="#">
             {{-- <i class='bx bx-collection'></i> --}}
-            <img src="{{ asset('images/nav_icons/home_nav.png') }}" alt="" class="title_icon">
+            <img src="{{ asset('images/nav_icons/control.png') }}" alt="" class="title_icon">
             <span class="link_name">Control</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>

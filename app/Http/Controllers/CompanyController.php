@@ -70,9 +70,13 @@ class CompanyController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit(Request $request)
     {
-        //
+        $company_id = $request->input('hide_company_id');
+
+        $company = Companies::find($company_id);
+
+        return view('Company.edit-company', compact('company'));
     }
 
     /**
