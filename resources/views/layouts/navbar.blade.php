@@ -117,20 +117,22 @@
         </ul>
       </li>
 
-      <!--------------------------------- Access --------------------------------->
+      <!------------------------------- Control ------------------------------->
       <li>
         <div class="iocn-link">
           <a href="#">
-            <i class='bx bx-book-alt' ></i>
-            <span class="link_name">Access</span>
+            {{-- <i class='bx bx-collection'></i> --}}
+            <img src="{{ asset('images/nav_icons/home_nav.png') }}" alt="" class="title_icon">
+            <span class="link_name">Control</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
+          <img src="{{ asset('images/nav_icons/right_arrow.png') }}" alt="arrow" class="arrow">
         </div>
         <ul class="sub-menu">
-          <li><a class="link_name" href="#">Access</a></li>
-          <li><a href="#">Users</a></li>
-          <li><a href="#">User Roles</a></li>
-          <li><a href="#">User Access</a></li>
+          <li><a class="link_name" href="#">Control</a></li>
+          <li><a href="/companies">Companies</a></li>
+          <li><a href="#">Shops</a></li>
+          <li><a href="#">Desc</a></li>
         </ul>
       </li>
 

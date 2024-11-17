@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Regit POS</title>
 
+    <script src="{{ asset('js/jquery-3.7.1.min.js') }}"></script>
+
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/nav_style.css') }}">
 </head>
-<body>
+<body style="overflow: auto;">
     @include('layouts.navbar')
 
     <section class="home-section">
